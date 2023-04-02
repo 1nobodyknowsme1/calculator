@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    margin: 0 5px 7px 0;
+    padding: 15px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(198, 213, 214);
+}
+
+.input{
+    margin-bottom: 16px;
+    width: 9.3rem;
+    margin-right: 4px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.row{
+    width: fit-content;
+}
+
+.c-btn{
+    position: relative;
+    bottom: 3px;
+    
+}
+
+.elementToFadeInAndOut {
+    background: red;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
